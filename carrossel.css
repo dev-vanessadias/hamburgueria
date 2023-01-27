@@ -9,3 +9,8 @@
     width: 400px;
     height: 300px;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: white;
+}
