@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburgueria</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>    
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrossel.css">
+    <link rel="stylesheet" href="cardapio.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 <body>
-    <header.>
-        <h1>Hamburgueria</h1>
+    <header>
+        <img src="./img/logohamburguer.png">
         <button>Cardápio</button>
         <button>Fale conosco</button>
         <button>localização</button>
@@ -17,16 +21,27 @@
         <button><img src="./img/shopping-bag.png"/></button>        
     </header>
     <section class="carrossel">
-        <h3>Colocar aqui carrossel de lanches</h3>
-        <img src="./img/lanche1.png" alt="hamburguer">
-        <img src="./img/batata1.png" alt="batata frinta">
-        <img src="./img/lanche2.jpg" alt="hamburguer">
-        <img src="./img/batata2.jpg" alt="batata frita">
-        <img src="./img/lanche3.png" alt="hamburguer">
-        <img src="./img/batata3.png" alt="hamburguer">
-        <img src="./img/lanche4.png" alt="hamburguer">
-        <img src="./img/lanche5.jpeg" alt="hamburguer">
-        <img src="./img/lanche6.jpeg" alt="hamburguer">
+        <img src="./img/background.png" alt="madeira de fundo">
+        <div class="swiper">           
+            <div class="swiper-wrapper">             
+                <div class="swiper-slide"><img src="./img/lanche1.png" alt="hamburguer"></div>
+                <div class="swiper-slide"><img src="./img/batata1.png" alt="batata frinta"></div>
+                <div class="swiper-slide"><img src="./img/lanche2.jpg" alt="hamburguer"></div>
+                <div class="swiper-slide"><img src="./img/batata2.jpg" alt="batata frita"></div>
+                <div class="swiper-slide"><img src="./img/lanche3.png" alt="hamburguer"></div>
+                <div class="swiper-slide"><img src="./img/batata3.png" alt="hamburguer"></div>
+                <div class="swiper-slide"><img src="./img/lanche4.png" alt="hamburguer"></div>
+                <div class="swiper-slide"><img src="./img/lanche5.jpeg" alt="hamburguer"></div>
+                <div class="swiper-slide"><img src="./img/lanche6.jpeg" alt="hamburguer"></div>
+            ...
+            </div>          
+            <div class="swiper-pagination"></div>          
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>          
+            
+            <div class="swiper-scrollbar"></div>
+        </div>          
     </section>
     <section class="cardapio">
         <img src="./img/lanche1.png" alt="hamburguer">
@@ -67,11 +82,18 @@
         <button>Adicionar ao carrinho</button>
     </section>
     <section>
-        <h3>Colocar mapa aqui</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d117344.55477859103!2d-45.964667383032!3d-23.206038796011867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1674775475486!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
     </section>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 10,
+            slidesPerView: 3,
+            spaceBetween: 10,            
+        });
+    </script>    
 </body>
 <footer>
-   <h3>rodapé</h3>
+    <h3>Rua dos lanches, 201, Jardim Gourmet, São José dos Campos - SP</h3>
 </footer>
 </html>
