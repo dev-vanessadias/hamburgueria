@@ -7,17 +7,18 @@
 header {
     display: flex;
     margin-right: 50px;
+    
 }
 
 #logo {
     width: 200px;    
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 30px;        
+    margin-left: 40px;        
 }
 
 button {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     background-color: white;
     border-color: white;
@@ -27,12 +28,14 @@ button {
     padding-bottom: 10px;
     border-style: none;
     cursor: pointer;
-    margin-left: 60px;
+    margin-left: 60px;  
 }  
 
 
 button:hover {
     color: rgb(228, 61, 61);
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 #icone-login {

@@ -4,5 +4,18 @@
     box-sizing: border-box;
 }
 
+.cardapio {
+    background-color:  rgba(0, 0, 0, 0.855);
+    padding-top: 50px;
+    color: white;
+    
+}
 
+.fale-conosco,
+.localizacao {    
+    padding-top: 50px;
+    text-align: center;
+    
+
+}
 
