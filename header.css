@@ -1,3 +1,58 @@
-img {
-    width: 80px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    margin-right: 50px;
+}
+
+#logo {
+    width: 200px;    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;        
+}
+
+button {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: white;
+    border-color: white;
+    padding-left: 80px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    cursor: pointer;
+    margin-left: 60px;
+}  
+
+
+button:hover {
+    color: rgb(228, 61, 61);
+}
+
+#icone-login {
+    width: 50px;   
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#icone-login:hover {
+    color: rgb(228, 61, 61);
+}
+
+#icone-bag {
+    width: 50px;
+    cursor: pointer;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#icone-bag:hover {
+    color: rgb(228, 61, 61)
 }

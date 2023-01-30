@@ -10,18 +10,21 @@
     <link rel="stylesheet" href="carrossel.css">
     <link rel="stylesheet" href="cardapio.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="mapa.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
     <header>
-        <img src="./img/logohamburguer.png">
+        <img id="logo" src="./img/logohamburguer.png" alt="logo">
         <button>Cardápio</button>
-        <button>Fale conosco</button>
-        <button>localização</button>
-        <button><img src="./img/profile-user.png"/></button>
-        <button><img src="./img/shopping-bag.png"/></button>        
+        <button>Contato</button>
+        <button>Localização</button>
+        <button><img id="icone-login" src="./img/profile-user.png" alt="botao perfil do usuario"/></button>
+        <button><img id="icone-bag" src="./img/shopping-bag.png" alt="botao sacola de comprar"/></button>        
     </header>
     <section class="carrossel">
-        <img src="./img/background.png" alt="madeira de fundo">
+        <img id="background" src="./img/background.png" alt="madeira de fundo">
         <div class="swiper">           
             <div class="swiper-wrapper">             
                 <div class="swiper-slide"><img src="./img/lanche1.png" alt="hamburguer"></div>
@@ -45,46 +48,124 @@
             <div class="swiper-scrollbar"></div>
         </div>          
     </section>
-    <section class="cardapio">
-        <img src="./img/lanche1.png" alt="hamburguer">
-        <h3>Igredientes</h3>
-        <h2>Preço</h2>
-        <button>Adicionar ao carrinho</button>
-        <img src="./img/batata1.png" alt="batata frinta">
-        <h3>Igredientes</h3>
-        <h2>Preço</h2>
-        <button>Adicionar ao carrinho</button>
-        <img src="./img/lanche2.jpg" alt="hamburguer">
-        <h3>Igredientes</h3>
-        <h2>Preço</h2>
-        <button>Adicionar ao carrinho</button>
-        <img src="./img/batata2.jpg" alt="batata frita">
-        <h3>Igredientes</h3>
-        <h2>Preço</h2>
-        <button>Adicionar ao carrinho</button>
-        <img src="./img/lanche3.png" alt="hamburguer">
-        <h3>Igredientes</h3>
-        <h2>Preço</h2>
-        <button>Adicionar ao carrinho</button>
-        <img src="./img/batata3.png" alt="hamburguer">
-        <h3>Igredientes</h3>
-        <h2>Preço</h2>
-        <button>Adicionar ao carrinho</button>
-        <img src="./img/lanche4.png" alt="hamburguer">
-        <h3>Igredientes</h3>
-        <h2>Preço</h2>
-        <button>Adicionar ao carrinho</button>
-        <img src="./img/lanche5.jpeg" alt="hamburguer">
-        <h3>Igredientes</h3>
-        <h2>Preço</h2>
-        <button>Adicionar ao carrinho</button>
-        <img src="./img/lanche6.jpeg" alt="hamburguer">
-        <h3>Igredientes</h3>
-        <h2>Preço</h2>
-        <button>Adicionar ao carrinho</button>
+    <section class="cardapio">     
+        <div>
+            <img src="./img/lanche1.png" alt="hamburguer">
+            <h4>Hamburguer feito de carne moída, temperado <br>
+                e moldado em formato circular.Pão de brioche, <br>
+                alface, tomate, queijo e molho especial</h4>
+            <h2>R$ 25,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>
+        <div>
+            <img src="./img/batata1.png" alt="batata frinta">
+            <h4>Hamburguer feito de carne moída, temperado <br>
+                e moldado em formato circular.Pão de brioche, <br>
+                alface, tomate, queijo e molho especial</h4>
+            <h2>R$ 25,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>
+        <div>
+            <img src="./img/lanche2.jpg" alt="hamburguer">
+            <h4>Hamburguer feito de carne moída, temperado <br>
+                e moldado em formato circular.Pão de brioche, <br>
+                alface, tomate, queijo e molho especial</h4>
+            <h2>R$ 25,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>
+        <div>
+            <img src="./img/batata2.jpg" alt="batata frita">
+            <h4>Hamburguer feito de carne moída, temperado <br>
+                e moldado em formato circular.Pão de brioche, <br>
+                alface, tomate, queijo e molho especial</h4>
+            <h2>R$ 25,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>
+        <div>
+            <img src="./img/lanche3.png" alt="hamburguer">
+            <h4>Hamburguer feito de carne moída, temperado <br>
+                e moldado em formato circular.Pão de brioche, <br>
+                alface, tomate, queijo e molho especial</h4>
+            <h2>R$ 25,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>
+        <div>
+            <img src="./img/batata3.png" alt="hamburguer">
+            <h4>Hamburguer feito de carne moída, temperado <br>
+                e moldado em formato circular.Pão de brioche, <br>
+                alface, tomate, queijo e molho especial</h4>
+            <h2>R$ 25,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>
+        <div>
+            <img src="./img/lanche4.png" alt="hamburguer">
+            <h4>Hamburguer feito de carne moída, temperado <br>
+                e moldado em formato circular.Pão de brioche, <br>
+                alface, tomate, queijo e molho especial</h4>
+            <h2>R$ 25,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>
+        <div>
+            <img src="./img/lanche4.png" alt="hamburguer">
+            <h4>Hamburguer feito de carne moída, temperado <br>
+                e moldado em formato circular.Pão de brioche, <br>
+                alface, tomate, queijo e molho especial</h4>
+            <h2>R$ 25,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>
+        <div>
+            <img src="./img/lanche6.jpeg" alt="hamburguer">
+            <h4>Hamburguer feito de carne moída, temperado <br>
+                e moldado em formato circular.Pão de brioche, <br>
+                alface, tomate, queijo e molho especial</h4>
+            <h2>R$ 25,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>   
+        <div>   
+            <img src="./img/coca.jpg" alt="lata de coca cola">
+            <h2>R$ 8,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>
+        <div>   
+            <img src="./img/splite.jpg.crdownload" alt="lata de splite">
+            <h2>R$ 8,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>    
+        <div>   
+            <img src="./img/guarana.png" alt="lata de guarana antartica">
+            <h2>R$ 8,00</h2>
+            <button>Adicionar ao carrinho</button>
+        </div>         
     </section>
-    <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d117344.55477859103!2d-45.964667383032!3d-23.206038796011867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1674775475486!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+    <section class="contato">
+        <div class="formulario">
+            <form>                
+                <div class="input-nome">
+                    <label for="nome">Nome</label>
+                    <input type="text" required placeholder="Digie seu nome">
+                </div>
+                <div class="input-telefone">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" required placeholder="Digite seu telefone com DDD">
+                </div>
+                <div class="input-email">
+                    <label for="email">e-mail</label>
+                    <input type="email" required placeholder="Digite seu e-mail">
+                </div>
+                <div class="input-mensagem">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea></textarea>
+                </div>       
+                <button class="botao-formulario">Enviar</button>
+            </form>
+        </div>
+        <div class="redes-sociais">
+            <img src="./img/instagram.png" alt="intagram">
+            <img src="./img/whatsapp.png" alt="whatsapp">
+        </div>        
+    </section>
+    <section class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d117344.55477859103!2d-45.964667383032!3d-23.206038796011867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1674775475486!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
@@ -94,11 +175,12 @@
             spaceBetween: 10,  
             autoplay: {
                 delay: 1300,
- },          
+            },          
         });
     </script>    
 </body>
 <footer>
-    <h3>Rua dos lanches, 201, Jardim Gourmet, São José dos Campos - SP</h3>
+    <p>® 2023 Hamburguer. Todos os direitos reservados.</p>         
+    <p>Rua dos lanches, 201, Jardim Gourmet, São José dos Campos - SP</p>
 </footer>
 </html>

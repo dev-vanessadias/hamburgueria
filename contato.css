@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contato {
+    display: flex;    
+    margin-left: 100px;
+    margin-right: 1px;    
+}
+
+.contato img {
+    width: 100px;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-top: 350px;
+}
+
+.formulario {
+    width: 400px;
+    border-style: solid;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.897);
+    color: white;
+    font-size: 20px;
+    margin: 150px;
+    margin-left: 250px;  
+}
+
+form {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+textarea {
+    vertical-align: top;
+    height: 8em;
+    resize: vertical;
+}
+
+
+.botao-formulario {  
+    display: inline;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 110px;    
+}   
