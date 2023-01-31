@@ -11,7 +11,12 @@
     background-color: rgba(0, 0, 0, 0.855); 
 }
 
-.cardapio h4 {
+.cardapio h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cardapio p {
     font-weight:100;
     text-align: center;
     margin-top: 10px;
